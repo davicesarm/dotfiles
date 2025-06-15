@@ -1,0 +1,51 @@
+{
+  "layer": "top",
+  "position": "top",
+  "reload_style_on_change": true,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["custom/hyprpicker", "pulseaudio", "network", "custom/power"],
+
+  "custom/power": {
+      "format": "",
+      "tooltip": false,
+      "on-click": "nwgbar -o 0.1"
+  },
+
+  "custom/hyprpicker": {
+    "format": "",
+    "on-click": "hyprpicker --autocopy",
+    "tooltip-format": "Pick a color"
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "hyprctl dispatch workspace e+1",
+    "on-click-right": "hyprctl dispatch workspace e-1"
+  },
+
+  "clock": {
+    "format": "{:%e %b %H:%M}",
+    "tooltip-format": "<big>{:%d/%m/%Y}</big>\n<tt><small>{calendar}</small></tt>"
+    // "on-click": "gsimplecal"
+
+  },
+
+  "network": {
+    "format-wifi": "󰖩",
+    "format-ethernet": "󰒢",
+    "format-disconnected": "󰞃",
+    "tooltip-format": "{ifname} - {essid} ({signalStrength}%)",
+    "alt": "{essid}"
+  },
+
+  "pulseaudio": {
+    "format": "{icon}   {volume}%",
+    "format-muted": "",
+    "format-icons": ["", "", ""]
+  },
+
+  "tray": {
+    "icon-size": 16
+  }
+}

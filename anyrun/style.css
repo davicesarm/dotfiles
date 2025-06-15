@@ -1,0 +1,70 @@
+* {
+    all: unset;
+    font-size: 1.1rem;
+}
+
+#window,
+#match,
+#entry,
+#plugin,
+#main {
+    background: transparent;
+}
+
+#match.activatable {
+    border-radius: 3px;
+    padding: 0.5rem 0.5rem;
+    margin-top: 0.01rem;
+    transition: background-color 0.2s ease, padding 0.2s ease;
+    color: #a9b1d6; 
+}
+
+#match.activatable:first-child, #match.activatable:first-child:hover {
+    margin-top: 0.6rem;
+}
+
+#match.activatable:last-child, #match.activatable:last-child:hover {
+    margin-bottom: 0.6rem;
+}
+
+/* Hover no próprio match, não no plugin inteiro */
+#match.activatable:hover {
+    border-radius: 3px;
+    margin-top: 0.01rem;
+    margin-bottom: 0;
+}
+
+#match.activatable:hover,
+#match:selected,
+#match:hover {
+    background: rgba(26, 27, 38, 0.7); /* #1a1b26 */
+    border: 1px solid #24283b;
+    padding: 0.5rem 1rem;
+}
+
+#entry {
+    background: rgba(26, 27, 38, 0.7); /* #1a1b26 */
+    border: 1px solid #24283b;
+    border-radius: 3px;
+    margin: 0.5rem;
+    padding: 0.7rem 1rem;
+}
+
+list > #plugin {
+    padding: 0.6rem;
+    border-radius: 3px;
+    margin: 0 0.3rem;
+}
+
+list > #plugin:last-child {
+    padding: 0.6rem;
+    margin-bottom: 0.3rem;
+}
+
+box#main {
+    background: rgba(26, 27, 38, 0.7); /* #1a1b26 */
+    border: 1px solid #24283b;
+    border-radius: 3px;
+    padding: 0.3rem;
+    color: #c0caf5;
+}

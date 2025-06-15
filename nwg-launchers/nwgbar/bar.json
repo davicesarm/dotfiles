@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Shutdown",
+    "exec": "systemctl -i poweroff",
+    "icon": "/home/dc/.config/nwg-launchers/nwgbar/icons/power.svg"
+  },
+  {
+    "name": "Logout",
+    "exec": "swaymsg exit",
+    "icon": "/home/dc/.config/nwg-launchers/nwgbar/icons/logout.svg"
+  },
+  {
+    "name": "Reboot",
+    "exec": "systemctl reboot",
+    "icon": "/home/dc/.config/nwg-launchers/nwgbar/icons/reboot.svg"
+  }
+]

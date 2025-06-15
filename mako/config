@@ -1,0 +1,31 @@
+# Fonte da notificação
+font=JetBrains Mono 10
+
+# Cor de fundo (formato #RRGGBBAA, alfa no final)
+background-color=#1A1B26B3
+
+# Cor do texto
+text-color=#c0caf5FF
+
+# Cor da borda e tamanho
+border-color=#24283b
+border-size=1
+border-radius=3
+
+# Margens e espaçamento
+margin=10
+padding=10
+
+# Tempo em milissegundos (0 = fica até fechar)
+default-timeout=8000
+
+# Mostrar ícones e tamanho máximo
+icons=1
+max-icon-size=48
+
+# Ações ao clicar na notificação
+on-button-left=invoke-default-action
+on-button-right=dismiss
+on-button-middle=none
+
+layer=overlay
