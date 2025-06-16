@@ -26,8 +26,9 @@
 
   "clock": {
     "format": "{:%e %b %H:%M}",
-    "tooltip-format": "<big>{:%d/%m/%Y}</big>\n<tt><small>{calendar}</small></tt>"
-    // "on-click": "gsimplecal"
+    "on-click": "/home/dc/.config/waybar/scripts/toggle_calendar.sh",
+    "tooltip": false
+    // "tooltip-format": "<big>{:%d/%m/%Y}</big>\n<tt><small>{calendar}</small></tt>"
 
   },
 

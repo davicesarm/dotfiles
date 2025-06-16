@@ -1,0 +1,28 @@
+.calendar {
+	font-family: Noto Sans CJK;
+	background: rgba(26, 27, 38, 0.7);
+	border: 1px solid #24283b; 
+	color: #a9b1d6;
+	border-radius: 3px;
+}
+
+.calendar:selected {
+	background-color: rgba(41, 42, 59, 0.7);
+}
+
+.highlight{
+	background-color: rgba(41, 42, 59, 0.7);
+	border-radius: 3px;
+}
+
+.button {
+	color: #373c4a;
+}
+
+.button:hover {
+	color: #a9b1d6;
+}
+
+.calendar:indeterminate {
+  color: #373c4a;
+}

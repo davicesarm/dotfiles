@@ -1,0 +1,13 @@
+(defwindow calendar
+	   :monitor 1
+           :geometry (geometry :x "5px"
+                               :y "5px"
+                               :width "270px"
+                               :height "180px"
+                               :anchor "top center")
+           :stacking "fg"
+           :reserve (struts :distance "40px" :side "top")
+           :windowtype "dock"
+           :wm-ignore false
+    (calendar))  
+
